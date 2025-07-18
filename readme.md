@@ -1,6 +1,6 @@
-# Water Segmentation Using U-Net Transformer
+# Water Segmentation Using U-Net 
 
-This project focuses on detecting water bodies in satellite imagery using a deep learning approach. The model used is a U-Net with a Transformer (MiT-B2) encoder, trained on multispectral images with 12 bands.
+This project focuses on detecting water bodies in satellite imagery using a deep learning approach. The model used is a U-Net , trained on multispectral images with 12 bands.
 
 ## 📁 Dataset Structure
 
@@ -19,7 +19,6 @@ Water Segmentation/
 
 ## 🚀 Model Architecture
 
-- **Backbone**: MiT-B2 (Transformer-based)
 - **Model**: U-Net with `segmentation_models_pytorch`
 - **Input Channels**: 12
 - **Output**: Binary segmentation mask
@@ -45,7 +44,7 @@ Water Segmentation/
 
    - Batch size: 4
    - Optimizer: Adam
-   - Epochs: 20
+   - Epochs: 50
    - Model checkpointing on best validation loss
 
 ## 📊 Output
